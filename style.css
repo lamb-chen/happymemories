@@ -1,0 +1,134 @@
+.header {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  background-color: #7e4d20;
+  border: 2px solid #ffffa3;
+  border-radius: 20px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+body {
+  background-color: #ffffa3;
+  text-align: center;
+}
+
+.pics {
+  display: flex;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  margin-top: 0.5em;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+h1 {
+  font-family: 'Amaranth', sans-serif;
+  color: #ffffa3;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Amaranth', sans-serif;
+  color: #936734;
+  text-align: center;
+}
+
+.overlay img {
+  display: inline;
+  height: 16em;
+  text-align: center;
+}
+
+.overlay{
+  position: relative;
+  float: left;
+  padding: 3px;
+}
+
+.overlay div{
+  float: left;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: #ffffa3;
+  color: #7e4d20;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, bold;
+  text-align: center;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: visibility 0s, opacity 0.5s linear; 
+  transition: visibility 0s, opacity 0.5s linear;
+}
+
+.overlay:hover{
+ cursor: pointer;
+}
+
+.overlay:hover div{
+  width: 9.5em;
+  height: 13em;
+  padding: 2em;
+  visibility: visible;
+  opacity: 0.8; 
+}
+
+.overlay:active div{
+  width: 9.5em;
+  height: 13em;
+  padding: 2em;
+  visibility: visible;
+  opacity: 0.8; 
+}
+
+.overlay2 img {
+  display: inline;
+  height: 16em;
+  text-align: center;
+}
+
+.overlay2{
+  position: relative;
+  float: left;
+  padding: 3px;
+}
+
+.overlay2 div{
+  float: left;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: #ffffa3;
+  color: #7e4d20;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, bold;
+  text-align: center;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: visibility 0s, opacity 0.5s linear; 
+  transition: visibility 0s, opacity 0.5s linear;
+}
+
+.overlay2:hover{
+ cursor: pointer;
+}
+
+.overlay2:hover div{
+  width: 12.8em;
+  height: 13em;
+  padding: 2em;
+  visibility: visible;
+  opacity: 0.8; 
+}
+
+.overlay2:active div{
+  width: 12.8em;
+  height: 13em;
+  padding: 2em;
+  visibility: visible;
+  opacity: 0.8; 
+}
